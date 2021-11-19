@@ -1,0 +1,7 @@
+icd_data/check.ipynb
+icd_data/mimic_top50_train.csv
+icd_data/top50_code_title.json
+icd_data/.ipynb_checkpoints/check-checkpoint.ipynb
+icd_data/.ipynb_checkpoints/code_structure-checkpoint.json
+icd_data/.ipynb_checkpoints/top50_code_title-checkpoint.json
+*.pyc
