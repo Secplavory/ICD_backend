@@ -3,6 +3,9 @@ import tensorflow as tf
 import flask
 import json
 
+my_devices = tf.config.experimental.list_physical_devices(device_type='CPU')
+tf.config.experimental.set_visible_devices(devices= my_devices, device_type='CPU')
+
 app = flask.Flask(__name__)
 
 code_structure = None
