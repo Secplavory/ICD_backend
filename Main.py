@@ -37,7 +37,7 @@ def predict():
             percentage = "{}".format(round(float(pred), 4))
         ))
 
-    return flask.jsonify({"data": data_list})
+    return flask.jsonify(data_list)
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080)
